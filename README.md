@@ -49,3 +49,47 @@ Alzheimer's Early Diagnosis Using Deep Learning
     ├── Streamlit / Gradio
     └── User uploads MRI → Outputs diagnosis + visual map
  ```
+# Github Repo Structure
+```
+alzheimer-cnn-vit-fl/
+│
+├── data/
+│   ├── adni/               # Raw/Processed ADNI data
+│   ├── preprocessed/       # .npy or .pt format
+│
+├── notebooks/
+│   ├── 01_preprocessing.ipynb
+│   ├── 02_cnn_model.ipynb
+│   ├── 03_cnn_vit_hybrid.ipynb
+│   ├── 04_self_supervised_ssl.ipynb
+│   ├── 05_federated_learning.ipynb
+│   └── 06_explainable_ai.ipynb
+│
+├── models/
+│   ├── cnn.py
+│   ├── vit.py
+│   ├── hybrid_model.py
+│   └── ssl_encoder.py
+│
+├── fl_clients/
+│   ├── client1.py
+│   ├── client2.py
+│   └── server.py
+│
+├── explainability/
+│   ├── gradcam.py
+│   └── attention_rollout.py
+│
+├── utils/
+│   ├── data_loader.py
+│   ├── metrics.py
+│   └── config.py
+│
+├── app/
+│   └── streamlit_app.py    # Optional frontend
+│
+├── README.md
+├── requirements.txt
+└── train.py
+
+```
