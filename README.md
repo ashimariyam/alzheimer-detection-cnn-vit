@@ -1,5 +1,20 @@
 # alzheimer-detection-cnn-vit
  Early Alzheimer’s Detection using Hybrid CNN-ViT Deep Learning Model with Multimodal Data
+ This project focuses on building a deep learning-based diagnostic model for early detection and progression prediction of Alzheimer’s Disease (AD) using brain MRI and PET scans. It leverages a hybrid architecture combining Convolutional Neural Networks (CNNs) and Vision Transformers (ViTs) to capture both spatial and global features from medical images.
+
+The model is trained on the ADNI dataset and integrates advanced AI techniques such as:
+
+🧠 Multimodal Learning (MRI + PET + clinical scores)
+
+🔍 Self-Supervised Learning to improve performance on limited labeled data
+
+🔐 Federated Learning for privacy-preserving training across multiple institutions
+
+📈 Explainable AI (XAI) using Grad-CAM & Attention Maps for interpretability
+
+This project is ideal for researchers and students aiming to explore deep learning in medical imaging, transformers, and clinical AI deployment.
+
+
 # Detailed MIND-MAP:
 Alzheimer's Early Diagnosis Using Deep Learning
 ```
