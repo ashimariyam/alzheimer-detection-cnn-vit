@@ -2,7 +2,7 @@
  Early Alzheimer’s Detection using Hybrid CNN-ViT Deep Learning Model with Multimodal Data
 # Detailed MIND-MAP:
 Alzheimer's Early Diagnosis Using Deep Learning
-│
+```
 ├── I. Dataset
 │   ├── ✅ ADNI (MRI, PET, Clinical Scores)
 │   ├── Preprocessing
@@ -48,4 +48,4 @@ Alzheimer's Early Diagnosis Using Deep Learning
 └── IX. Optional Web UI
     ├── Streamlit / Gradio
     └── User uploads MRI → Outputs diagnosis + visual map
- 
+ ```
